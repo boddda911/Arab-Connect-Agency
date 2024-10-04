@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arab Connect Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .cta-button {
+      background-color: #264653;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      display: inline-block;
+      margin: 20px 0;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .cta-button:hover {
+      background-color: #1d3557;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #264653;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Arab Connect Agency</h1>
+    <p>B2B Cold Calling & Lead Generation for Arabic-Speaking Markets</p>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h2>Our Services</h2>
+    <p>At Arab Connect Agency, we specialize in helping businesses connect with decision-makers in Arabic-speaking markets through expert cold-calling and lead generation. Our bilingual team ensures high-quality leads and effective communication for companies looking to expand.</p>
+
+    <h3>Our Core Services:</h3>
+    <ul>
+      <li>Lead Generation</li>
+      <li>Appointment Setting</li>
+      <li>Cold Calling in Arabic & English</li>
+    </ul>
+
+    <a href="#contact" class="cta-button">Schedule a Free Consultation</a>
+  </div>
+
+  <!-- Contact Form Section -->
+  <div id="contact" class="container">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea><br><br>
+      <button type="submit" class="cta-button">Submit</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Arab Connect Agency</p>
+  </footer>
+
+</body>
+</html>
